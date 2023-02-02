@@ -1,0 +1,61 @@
+POST http://0.0.0.0:8080/customer
+Content-Type: application/json
+
+{
+  "id": "1",
+  "firstName": "Hamza",
+  "lastName": "Malik",
+  "email": "hamza@vayana.com"
+}
+
+
+###
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+
+{
+  "id": "2",
+  "firstName": "Vishesh",
+  "lastName": "Modi",
+  "email": "vishesh@vayana.com"
+}
+
+
+###
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+
+{
+  "id": "3",
+  "firstName": "Mary",
+  "lastName": "Smith",
+  "email": "mary.smith@company.com"
+}
+
+
+###
+GET http://127.0.0.1:8080/customer
+Accept: application/json
+
+
+###
+GET http://127.0.0.1:8080/customer/1
+Accept: application/json
+
+
+###
+GET http://127.0.0.1:8080/customer/2
+Accept: application/json
+
+
+###
+GET http://127.0.0.1:8080/customer/5
+Accept: application/json
+
+
+###
+DELETE http://127.0.0.1:8080/customer/1
+
+
+###
+DELETE http://127.0.0.1:8080/customer/5
