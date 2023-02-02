@@ -1,0 +1,10 @@
+GET http://127.0.0.1:8080/order
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:8080/order/01
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:8080/order/02/total
+Content-Type: application/json
